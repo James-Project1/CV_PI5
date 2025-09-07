@@ -14,9 +14,7 @@
       "name": "release",
       "generator": "Unix Makefiles",
       "binaryDir": "build/release",
-      "cacheVariables": {
-        "CMAKE_BUILD_TYPE": "Release"
-      }
+      "cacheVariables": { "CMAKE_BUILD_TYPE": "Release" }
     }
   ],
   "buildPresets": [

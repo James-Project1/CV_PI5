@@ -2,14 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "cam_trigger (Debug, integrated terminal)",
+      "name": "cam_trigger (Debug, terminal)",
       "type": "cppdbg",
       "request": "launch",
+      "program": "${command:cmake.launchTargetPath}",
+      "args": [],
+      "cwd": "${workspaceFolder}",
       "MIMode": "gdb",
       "miDebuggerPath": "/usr/bin/gdb",
-      "program": "${command:cmake.launchTargetPath}",
-      "args": ["--duration", "10000", "--outdir", "/mnt/ssd/clips", "--verbose"],
-      "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "stopAtEntry": false
     }
