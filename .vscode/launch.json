@@ -2,14 +2,14 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "cam_trigger (Debug, terminal)",
+      "name": "cam_trigger (Debug on Pi, terminal)",
       "type": "cppdbg",
       "request": "launch",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
       "program": "${command:cmake.launchTargetPath}",
       "args": [],
       "cwd": "${workspaceFolder}",
-      "MIMode": "gdb",
-      "miDebuggerPath": "/usr/bin/gdb",
       "console": "integratedTerminal",
       "stopAtEntry": false
     }

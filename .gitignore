@@ -6,8 +6,13 @@
 **/*.o
 **/*.a
 **/*.so
-
-# local overrides
+# Windows junk
+*.exe
+*.dll
+*.pdb
+Thumbs.db
+.DS_Store
+# local-only configs
 CMakeUserPresets.json
 .vscode/*.local.json
 *.code-workspace
