@@ -18,7 +18,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Executable: command-triggered recorder
 add_executable(cam_trigger
-  src/apps/cam_trigger/main.c
+  src/main.c
 )
 
 # (Later) link your own libraries here, e.g.:
